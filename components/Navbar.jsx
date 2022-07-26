@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import { useEffect } from 'react'
+import topImg from '../public/assets/name3.png'
 // import use
 
 const Navbar = () => {
@@ -28,7 +29,7 @@ const Navbar = () => {
     <div className={shadow ? 'sticky top-0 w-full h-20 shadow-xl z-[2] justify-between bg-[#ecf0f3] ease-in duration-200' : 'sticky top-0 w-full h-20 z-[2] justify-between bg-[#ecf0f3] ease-in duration-200'}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 z-[2]'>
             <Link href='/'>
-                <Image className='cursor-pointer' src="/../public/assets/name3.png" alt="/" width='125' height='50'/>
+                <Image className='cursor-pointer' src={topImg} alt="/" width='125' height='50'/>
             </Link>
             <div>
                 <ul className='hidden md:flex'>
