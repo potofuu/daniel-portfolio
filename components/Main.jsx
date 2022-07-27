@@ -23,7 +23,7 @@ const Main = () => {
                             <FaGithub />
                         </div>
                     </a>
-                    <a href='https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:e56e2ad6-d4f2-4d5e-ad77-05b352a7e58d'>
+                    <a href='https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:6dc415ef-6746-4210-bb32-6bc01a5febb3'>
                         <div className='rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <BsFillPersonLinesFill />
                         </div>
